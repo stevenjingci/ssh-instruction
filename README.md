@@ -21,8 +21,8 @@ ps -ef | grep python
 
 101376为训练进程的PID
 终止进程：
-kill 101198
+kill 101376
 
 强制终止进程：
-kill -9 101198
+kill -9 101376
 
