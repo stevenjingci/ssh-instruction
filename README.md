@@ -4,7 +4,7 @@ vscode服务器后台训练的一些指令
 nohup python train_net.py --config-file ./configs/faster_rcnn_res50_visdrone.yaml --num-gpus 1 SOLVER.IMS_PER_BATCH 2 > train_log.txt 2>&1 &
 即nohup python xxx(你要执行的代码) > train_log.txt 2>&1 &
 
-abc
+abcdef
 
 nohup：用于运行命令，使命令在用户注销或终端关闭时继续运行。
 > train_log.txt：将标准输出重定向到train_log.txt文件中，你可以自定义文件名。这样做可以保存训练过程中的所有输出，便于以后查看。
